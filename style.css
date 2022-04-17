@@ -1,0 +1,49 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.site-container {
+    height:80vh;
+    width:100%;
+    margin-top:15px;
+}
+
+#reset {
+display:flex;
+justify-content:center;
+height:50px;
+}
+
+#reset-button {
+width:100px;
+height:30px;
+border-radius:20px;
+background: linear-gradient(#393939 #939393);
+box-shadow:4px 4px 8px black;
+
+}
+
+.content {
+
+    display:flex;
+    height:100%;
+    width:60%;
+    flex-wrap:wrap;
+    flex:1 1 0px;
+    align-items:center;
+    margin:0 auto;
+
+}
+
+.trail {
+    background-color:rgba(50,50,50,.9)
+}
+
+.square {
+
+    /* width:10%;
+    height:10%;  */
+    outline:1px solid blue;
+}
